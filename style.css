@@ -1,0 +1,79 @@
+/*body*/
+body{
+    background-color:#01011C ;
+}
+
+/*Header*/
+header .menu ul a{
+    font-size: 19px;
+    font-family: Poppins;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+}
+
+/*tipografia*/
+.title{
+    font-family: poppins;
+    color: white;
+}
+.title.one{
+    font-size: 90px;
+    font-weight: 700;
+}
+.title.two{
+    font-size: 60px;
+    font-weight: 700;
+}
+.title.threehalf{
+    font-size: 28px;
+    font-weight: 700;
+}
+.title.three{
+    font-size: 24px;
+    font-weight: 600;
+}
+.title.four{
+    font-size: 19px;
+    font-weight: 600;
+}
+.content-box p{
+    font-family: poppins;
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+}
+/*Botões*/
+
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 700;
+    height: 60px;
+    border-radius: 255px;
+    width: 360px;
+    transition: 0.4s;
+}
+
+.btn.solid{
+    background-color: #0000FF;
+    color: #FFFFFF;
+    border: 2px solid #0000FF;
+}
+.btn.outline{
+    background: transparent;
+    color: #A5A5FF;
+    border: 2px solid #A5A5FF;
+}
+
+.btn.solid:hover{
+    background: #A5A5FF;
+    border-color: #A5A5FF;
+}
+.btn.btn.outline:hover{
+    background: #A5A5FF;
+    color: white;
+}

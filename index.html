@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <title>Projeto Kenzie</title>
 </head>
 <body>
@@ -13,45 +17,48 @@
             <img src="/img/LogoKenzieFestival.png" alt="Logo Patinho Festival">
         </a>
         
-        <nav>
+        <nav class="menu">
             <ul>
                 <li>
                     <a href="/index.html#sobre">Sobre</a>
                 </li>
             </ul>
-            <a href="/carrinho.html">Quero o meu ingresso!</a>
+            <a href="/carrinho.html" class="btn outline">Quero o meu ingresso!</a>
             <button>
-                <img src="/img/simboloDarkMode.png" alt="Modo diurno">
+                <img src="/img/simboloLightMode.png" alt="Modo diurno">
             </button>
         </nav>
     </header>
 
 <section id="principal">
     <img src="/img/Patinho.png" alt="Patinho logo">
-    <h1>
+    <h1 class="title one">
         Dev Festival
     </h1>
 
-    <a target="_blank" href="https://kenzie.com.br/">Quero meu ingresso!</a>
+    <a target="_blank" href="https://kenzie.com.br/" class="btn solid">Quero meu ingresso!</a>
     <img src="/img/MoçaOuvindoMusica.png" alt="Moça ouvindo musica 1">
 </section>
 
 <section id="sobre">
     <img src="/img/MoçaOuvindoMusica2.png" alt="Moça ouvindo musica 2">
-    <h2>
+    <h2 class="title two">
         Sobre o festival
     </h2>
     
-    <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-    </p>
-    <p>
-        Odit deleniti, asperiores beatae impedit, similique eos delectus adipisci dolorem nihil omnis labore natus sequi? Cumque non, praesentium quidem cum cupiditate obcaecati.
-    </p>
+    <div class="content-box">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        </p>
+        <p>
+            Odit deleniti, asperiores beatae impedit, similique eos delectus adipisci dolorem nihil omnis labore natus sequi? Cumque non, praesentium quidem cum cupiditate obcaecati.
+        </p>
+    </div>
+    
 </section>
 
 <section id="artistas">
-    <h2>
+    <h2 class="title two">
         Artistas
     </h2>
     <ul>

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/reset.css">
     <title>Carrinho</title>
 </head>
 <body>
@@ -14,26 +15,27 @@
             <img src="/img/LogoKenzieFestival.png" alt="Logo Patinho Festival">
         </a>
         
-        <nav>
+        <nav class="menu">
             <ul>
                 <li>
                     <a href="/index.html#sobre">Sobre</a>
                 </li>
             </ul>
-            <a href="/carrinho.html">Quero o meu ingresso!</a>
+            <a href="/carrinho.html" class="btn outline">Quero o meu ingresso!</a>
             <button>
-                <img src="/img/simboloDarkMode.png" alt="Modo diurno">
+                <img src="/img/simboloLightMode.png" alt="Modo diurno">
             </button>
         </nav>
     </header>
 
+
     <section id="carrinho">
-        <h1>
+        <h1 class="title two">
             Finalizar a compra
         </h1>
         <ul>
             <li>
-                <h3>
+                <h3 class="title four">
                     Ingresso para o Music Kenzie Festival
                 </h3>
                 <div>
@@ -42,17 +44,17 @@
                         <span></span>
                         <button>+</button>
                     </div>
-                    <p>R$ 90,00 por pessoa</p>
+                    <p class="title three">R$ 90,00 por pessoa</p>
                 </div>
             </li>
         </ul>
 
         <div>
-            <h2>Preencha os campos</h2>
+            <h2 class="title three">Preencha os campos</h2>
             <form>
                 <input type="text" name="nome" id="nome" placeholder="Seu nome">
                 <input type="email" name="email" id="email" placeholder="Seu email">
-                <button type="submit">Finalizar compra</button>
+                <button type="submit" class="btn solid">Finalizar compra</button>
             </form>
 
         </div>

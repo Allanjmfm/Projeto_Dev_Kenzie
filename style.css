@@ -1,10 +1,13 @@
 /*body*/
-body{
-    background-color:#01011C ;
+body {
+    background-color: #01011C;
 }
 
 /*Header*/
-header .menu ul a{
+#header{
+    background: #01011C;
+}
+header .menu ul a {
     font-size: 19px;
     font-family: Poppins;
     font-weight: 400;
@@ -12,40 +15,65 @@ header .menu ul a{
     text-transform: uppercase;
 }
 
+#header .flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#header .flex-box nav{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+#header .flex-box .logo img{
+    max-width: 170px;
+}
+
 /*tipografia*/
-.title{
+.title {
     font-family: poppins;
     color: white;
 }
-.title.one{
+
+.title.one {
     font-size: 90px;
     font-weight: 700;
 }
-.title.two{
+
+.title.two {
     font-size: 60px;
     font-weight: 700;
 }
-.title.threehalf{
+
+.title.threehalf {
     font-size: 28px;
     font-weight: 700;
 }
-.title.three{
+
+.title.three {
     font-size: 24px;
     font-weight: 600;
 }
-.title.four{
+
+.title.four {
     font-size: 19px;
     font-weight: 600;
 }
-.content-box p{
+
+.content-box p {
     font-family: poppins;
     font-size: 19px;
     font-weight: 400;
     color: white;
 }
+
+.blue-text {
+    color: #0000FF;
+}
+
 /*Botões*/
 
-.btn{
+.btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -58,22 +86,59 @@ header .menu ul a{
     transition: 0.4s;
 }
 
-.btn.solid{
+.btn.solid {
     background-color: #0000FF;
     color: #FFFFFF;
     border: 2px solid #0000FF;
 }
-.btn.outline{
+
+.btn.outline {
     background: transparent;
     color: #A5A5FF;
     border: 2px solid #A5A5FF;
 }
 
-.btn.solid:hover{
+.btn.solid:hover {
     background: #A5A5FF;
     border-color: #A5A5FF;
 }
-.btn.btn.outline:hover{
+
+.btn.btn.outline:hover {
     background: #A5A5FF;
     color: white;
+}
+
+/*Grid*/
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Seções*/
+#principal{
+    padding: 50px 0px;
+}
+#sobre{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    /*Ou pode escrever dessa forma: 
+    padding: 50px 0px;*/
+}
+
+#sobre .flex-box {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+}
+
+#sobre .flex-box .left,
+#sobre .flex-box .right {
+    width: 100%;
+}
+
+#sobre .flex-box .left img {
+    width: 100%;
 }
